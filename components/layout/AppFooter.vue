@@ -99,8 +99,8 @@
         <div class="mt-8">
           <h4 class="text-xl font-medium">Discover our app</h4>
           <div class="flex gap-x-3 mt-4">
-            <nuxt-img class="w-28" src="/img/google-play.svg" />
-            <nuxt-img class="w-28" src="/img/apple-store.svg" />
+            <nuxt-img class="w-28" src="/img/google-play.svg" loading="lazy" />
+            <nuxt-img class="w-28" src="/img/apple-store.svg" loading="lazy" />
           </div>
         </div>
       </div>

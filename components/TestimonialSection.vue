@@ -43,7 +43,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="grid lg:grid-cols-2 mt-20 md:mt-40 lg:mt-60 px-4 md:px-10 lg:px-10 xl:px-0">
+  <section
+    class="grid lg:grid-cols-2 mt-20 md:mt-40 lg:mt-60 px-4 md:px-10 lg:px-10 xl:px-0"
+  >
     <div class="relative mt-0">
       <span class="font-semibold text-lg lg:text-xl">Testimonials</span>
       <h1
@@ -51,9 +53,7 @@ onMounted(() => {
       >
         What people say about Us.
       </h1>
-      <ul
-        class="hidden lg:flex gap-x-6 mt-16"
-      >
+      <ul class="hidden lg:flex gap-x-6 mt-16">
         <li v-for="i in 3" :key="i">
           <div
             class="w-3 h-3 rounded-full"
@@ -76,6 +76,7 @@ onMounted(() => {
             class="absolute -top-[30px] -left-[30px] w-[60px] h-[60px]"
             :src="testimonial.img"
             format="webp"
+            loading="lazy"
           />
           <div>
             <p class="font-medium">“{{ testimonial.comment }}”</p>

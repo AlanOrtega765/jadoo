@@ -16,6 +16,7 @@
             <nuxt-img
               class="absolute top-1/2 -translate-y-1/2 left-4 h-4 w-[18px]"
               src="/img/mail-icon.svg"
+              loading="lazy"
             />
             <input
               class="w-full pl-11 pr-4 py-5 rounded-[10px] text-sm appearance-none placeholder:text-midnight-blue/70 outline-none"
@@ -33,14 +34,17 @@
       <nuxt-img
         class="absolute -top-5 -right-2 w-[70px] h-[70px]"
         src="/img/send-rounded.svg"
+        loading="lazy"
       />
       <nuxt-img
         class="absolute top-0 right-0 -z-10 w-[210px] opacity-10"
         src="/img/spring-right.svg"
+        loading="lazy"
       />
       <nuxt-img
         class="hidden md:flex absolute bottom-0 left-6 -z-10 w-[350px] opacity-10"
         src="/img/spring-left.svg"
+        loading="lazy"
       />
     </div>
   </section>

@@ -24,8 +24,15 @@ onMounted(() => blurHeader());
       { 'backdrop-blur-xl': isBlur },
     ]"
   >
-    <div class="flex justify-between items-center h-full px-8 md:px-10 w-full lg:px-12 xl:container xl:mx-auto xl:px-0">
-      <nuxt-img class="h-7 md:h-8 xl:h-10" src="/img/logo.svg" alt="Jadoo Logo" />
+    <div
+      class="flex justify-between items-center h-full px-8 md:px-10 w-full lg:px-12 xl:container xl:mx-auto xl:px-0"
+    >
+      <nuxt-img
+        class="h-7 md:h-8 xl:h-10"
+        src="/img/logo.svg"
+        alt="Jadoo Logo"
+        loading="lazy"
+      />
       <nav
         class="absolute lg:relative lg:top-0 top-20 left-0 bg-alice-blue flex flex-col lg:flex-row shadow-md w-full overflow-y-hidden lg:overflow-y-visible max-h-0 lg:max-h-[80px] lg:items-center lg:justify-end lg:gap-x-10 lg:px-0 lg:bg-transparent lg:shadow-none px-8 lg:transition-none transition-all ease-in-out duration-500"
         :class="{ 'max-h-[392px] py-4': isNavOpen }"

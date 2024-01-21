@@ -1,5 +1,7 @@
 <template>
-  <section class="pt-10 md:pt-20 xl:pt-28 lg:px-12 px-4 md:px-10 xl:px-0 lg:mx-auto">
+  <section
+    class="pt-10 md:pt-20 xl:pt-28 lg:px-12 px-4 md:px-10 xl:px-0 lg:mx-auto"
+  >
     <div
       class="bg-[url('/img/decore-mobile.svg')] md:bg-[url('/img/decore.svg')] md:bg-center md:-top-10 md:h-[80vh] lg:h-[90vh] xl:h-[110vh] lg:bg-cover absolute -top-48 left-0 -z-10 w-full h-screen bg-cover bg-no-repeat"
     ></div>
@@ -18,6 +20,7 @@
             <nuxt-img
               class="absolute bottom-2 -left-6 object-cover -z-10 min-w-fit h-2 xl:h-3 xl:bottom-3 xl:-left-10"
               src="/img/decore-line.svg"
+              loading="lazy"
             />
           </div>
           and live a new and full life
@@ -52,14 +55,17 @@
           class="relative w-full md:scale-125 2xl:scale-100 md:-left-5 md:top-10 lg:w-full xl:scale-[115%] lg:top-0 xl:-top-10"
           src="/img/traveller.png"
           format="webp"
+          loading="lazy"
         />
         <nuxt-img
           class="absolute top-12 left-14 md:-left-11 md:top-8 w-16 lg:w-20 lg:-top-8 lg:-left-16 xl:w-28 xl:-left-16 xl:-top-10"
           src="/img/plane.svg"
+          loading="lazy"
         />
         <nuxt-img
           class="absolute top-20 right-5 md:right-8 md:top-16 w-16 -z-10 lg:w-20 lg:top-0 lg:right-12 xl:w-28 xl:right-8 xl:top-4"
           src="/img/plane.svg"
+          loading="lazy"
         />
       </div>
     </div>
