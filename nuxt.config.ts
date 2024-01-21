@@ -16,6 +16,9 @@ export default defineNuxtConfig({
       ],
     },
   },
+  image: {
+    provider: 'netlify',
+  },
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
   },
