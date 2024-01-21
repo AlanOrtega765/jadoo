@@ -25,7 +25,9 @@ const destinations = ref([
   <section class="px-6 md:px-10 mt-20 md:mt-40 lg:mt-60 xl:px-0">
     <div class="text-center">
       <span class="font-semibold text-lg lg:text-xl">Top Selling</span>
-      <h1 class="font-volkhov font-bold text-4xl text-dark-midnight-blue mt-2 lg:text-[40px]">
+      <h1
+        class="font-volkhov font-bold text-4xl text-dark-midnight-blue mt-2 lg:text-[40px]"
+      >
         Top Destinations
       </h1>
     </div>
@@ -36,6 +38,7 @@ const destinations = ref([
             class="w-full object-cover object-top rounded-t-3xl"
             format="webp"
             :src="destination.img"
+            loading="lazy"
           />
           <div class="pl-5 pr-6 pt-7 pb-10">
             <div class="flex justify-between">

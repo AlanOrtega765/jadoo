@@ -13,7 +13,7 @@
         <div
           class="hover:shadow-lg hover:shadow-black/10 rounded-[36px] w-[280px] h-[334px] xl:w-[320px] xl:px-12 xl:h-[350px] px-8 lg:w-auto lg:px-5 lg:py-5 py-11 transition-shadow duration-500 bg-white"
         >
-          <nuxt-img class="w-28 h-24 mx-auto" format="webp" src="/img/services/satellite.svg" />
+          <nuxt-img class="w-28 h-24 mx-auto" format="webp" src="/img/services/satellite.svg" loading="lazy"/>
           <div class="text-center mt-8">
             <h1 class="text-midnight-blue text-xl font-semibold">
               Calculated Weather
@@ -26,13 +26,14 @@
         <nuxt-img
           class="absolute bottom-0 left-0 -translate-y-6 translate-x-6 group-hover:translate-y-6 group-hover:-translate-x-6 w-20 h-20 -z-10 transition-transform duration-500"
           src="/img/services/decore-rectangle.svg"
+          loading="lazy"
         />
       </li>
       <li class="relative group">
         <div
           class="hover:shadow-lg hover:shadow-black/10 rounded-[36px] w-[280px] h-[334px] lg:w-auto lg:px-5 px-14 py-11 lg:py-5 transition-shadow duration-500 bg-white"
         >
-          <nuxt-img class="w-32 h-24 mx-auto" format="webp" src="/img/services/plane.svg" />
+          <nuxt-img class="w-32 h-24 mx-auto" format="webp" src="/img/services/plane.svg" loading="lazy"/>
           <div class="text-center mt-8">
             <h1 class="text-midnight-blue text-xl font-semibold">
               Best Flights
@@ -44,6 +45,7 @@
           <nuxt-img
             class="absolute bottom-0 left-0 -translate-y-6 translate-x-6 group-hover:translate-y-6 group-hover:-translate-x-6 w-20 h-20 -z-10 transition-transform duration-500"
             src="/img/services/decore-rectangle.svg"
+            loading="lazy"
           />
         </div>
       </li>
@@ -55,6 +57,7 @@
             class="w-[85px] h-24 mx-auto"
             format="webp"
             src="/img/services/microphone.png"
+            loading="lazy"
           />
           <div class="text-center mt-8">
             <h1 class="text-midnight-blue text-xl font-semibold">
@@ -69,13 +72,14 @@
         <nuxt-img
           class="absolute bottom-0 left-0 -translate-y-6 translate-x-6 group-hover:translate-y-6 group-hover:-translate-x-6 w-20 h-20 -z-10 transition-transform duration-500"
           src="/img/services/decore-rectangle.svg"
+          loading="lazy"
         />
       </li>
       <li class="relative group">
         <div
           class="hover:shadow-lg hover:shadow-black/10 rounded-[36px] w-[280px] h-[334px] px-8 lg:w-auto lg:px-4 py-11 lg:py-5 transition-shadow duration-500 bg-white"
         >
-          <nuxt-img class="w-24 h-24 mx-auto" src="/img/services/power-supply.svg" />
+          <nuxt-img class="w-24 h-24 mx-auto" src="/img/services/power-supply.svg" loading="lazy"/>
           <div class="text-center mt-8">
             <h1 class="text-midnight-blue text-xl font-semibold">
               Customization
@@ -88,6 +92,7 @@
         <nuxt-img
           class="absolute bottom-0 left-0 -translate-y-6 translate-x-6 group-hover:translate-y-6 group-hover:-translate-x-6 w-20 h-20 -z-10 transition-transform duration-500"
           src="/img/services/decore-rectangle.svg"
+          loading="lazy"
         />
       </li>
     </ul>

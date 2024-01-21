@@ -40,7 +40,7 @@ const list = ref([
             :key="index"
           >
             <div class="flex md:w-1/2 lg:w-full gap-x-4">
-              <nuxt-img class="w-14 h-14" :src="item.img" />
+              <nuxt-img class="w-14 h-14" :src="item.img" loading="lazy"/>
               <div>
                 <h2 class="font-bold">{{ item.title }}</h2>
                 <p class="mt-2">

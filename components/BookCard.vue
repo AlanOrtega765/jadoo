@@ -15,6 +15,7 @@ const icons = [IconLeaf, IconMap, IconSend];
         class="w-full"
         format="webp"
         src="/img/bookings/greece.png"
+        loading="lazy"
       />
       <div class="mt-6">
         <h2 class="font-medium text-rich-black text-[18px]">Trip To Greece</h2>
@@ -48,6 +49,7 @@ const icons = [IconLeaf, IconMap, IconSend];
               class="w-[50px] h-[50px]"
               src="/img/bookings/rome-rounded.png"
               format="webp"
+              loading="lazy"
             />
             <div>
               <span class="text-sm font-medium">Ongoing</span>
@@ -70,6 +72,7 @@ const icons = [IconLeaf, IconMap, IconSend];
       <nuxt-img
         class="absolute -top-48 -left-60 md:-left-52 opacity-40 -z-10 min-w-[500px]"
         src="/img/bookings/blue-shadow.svg"
+        loading="lazy"
       />
     </div>
   </div>

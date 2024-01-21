@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  devtools: { enabled: true },
   app: {
     head: {
       link: [
@@ -19,5 +20,4 @@ export default defineNuxtConfig({
     cssPath: '~/assets/css/tailwind.css',
   },
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image'],
-  devtools: { enabled: true },
 });
