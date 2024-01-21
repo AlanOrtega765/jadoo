@@ -39,6 +39,8 @@ const destinations = ref([
             format="webp"
             :src="destination.img"
             loading="lazy"
+            width="485"
+            height="510"
           />
           <div class="pl-5 pr-6 pt-7 pb-10">
             <div class="flex justify-between">

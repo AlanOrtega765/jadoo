@@ -18,7 +18,6 @@ export default defineNuxtConfig({
   },
   image: {
     provider: 'netlify',
-    domains: ['https://lovely-queijadas-7ec135.netlify.app'],
   },
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
